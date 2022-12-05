@@ -389,13 +389,17 @@ a, button{
 }
 ._wrk_drm_trvl_main ._wrk_drm_trvl_crd_inr{
     margin-right: 16px;
+   
 }
 ._wrk_drm_trvl_main:nth-last-child ._wrk_drm_trvl_crd_inr{
     margin-right: 0;
+    display: flex;
+    justify-content: center;
 }
 ._wrk_drm_trvl_crd{
     padding-bottom: 30px;
     height: 100%;
+  
 }
 ._wrk_drm_trvl_crd_inr{
     background: var(--bg1);
