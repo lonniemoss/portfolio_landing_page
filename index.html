@@ -25,19 +25,19 @@
 				      <span class="navbar-toggler-icon"></span>
 				    </button>
 				    <div class="collapse navbar-collapse _drm_trvl_menu" id="navbarTogglerDemo02">
-					    <div class="_drm_trvl_mdl">
+					    <div class="_drm_trvl_mdl" id="nav-options">
 					    	<ul class="_drm_trvl_mdl_ul">
 					    		<li class="_drm_trvl_mdl_ul_li">
-						          <a href="#" class="_drm_trvl_mnu_txt">Web apps</a>
+						          <a href="#web" class="_drm_trvl_mnu_txt">Web apps</a>
 						        </li>
 						        <li class="_drm_trvl_mdl_ul_li">
-						          <a href="#" class="_drm_trvl_mnu_txt">About Me</a>
+						          <a href="#about" class="_drm_trvl_mnu_txt">About Me</a>
 						        </li>
 						        <li class="_drm_trvl_mdl_ul_li">
-						          <a href="#" class="_drm_trvl_mnu_txt">Extra</a>
+						          <a href="#extra" class="_drm_trvl_mnu_txt">Extra</a>
 						        </li>
 						        <li class="_drm_trvl_mdl_ul_li">
-						          <a href="#" class="_drm_trvl_mnu_txt">Programming Languages</a>
+						          <a href="#pro" class="_drm_trvl_mnu_txt">Programming Languages</a>
 						        </li>
 								<li class="_drm_trvl_mdl_ul_li">
 									<a href="#" class="_drm_trvl_mnu_txt">CONTACT</a>
@@ -62,7 +62,7 @@
 
 		<!-- WORK STATION -->
 		<section class="_wrk_drm_trvl_sec">
-			<div class="container">
+			<div class="container" id="web">
 				<div class="_wrk_drm_trvl_top">
 					<h1 class="_wrk_drm_trvl_tp_h1">
 						Websites
@@ -91,7 +91,7 @@
 
 			<!-- ABOUT US -->
 		<section class="_abt_drm_trvl_sec">
-			<div class="container">
+			<div class="container" id="about">
 				<div class="_abt_drm_trvl_top">
 					<div class="_abt_drm_trvl_top_lft">
 						<p class="_abt_drm_trvl_top_lft_p">
@@ -125,7 +125,7 @@ The best part about attending a coding bootcamp is that you get to work on real-
 		<!-- ABOUT US -->
 		<!-- extra -->
 		<section class="_ftre_drm_trvl_sec">
-			<div class="container">
+			<div class="container" id="extra">
 				<div class="_ftre_drm_trvl_top">
 					<h1 class="_ftre_drm_trvl_tp_h1">
 						Extras
@@ -181,7 +181,7 @@ The best part about attending a coding bootcamp is that you get to work on real-
 
 		<!-- PARTNER -->
 		<section class="_prtnr_drm_trvl_sec">
-			<div class="container">
+			<div class="container" id="pro">
 				<div class="_prtnr_drm_trvl_top">
 					<h1 class="_prtnr_drm_trvl_tp_h1">
 						PROGRAMMING LANGUAGES
@@ -193,22 +193,22 @@ JavaScript is my preferred language for developing applications that are efficie
 				</div>
 				<ul class="_prtnr_drm_trvl_ul">
 					<li>
-						<img src="assets/img/trvl_agncy8.svg" alt="image">
+						<img src="assets/img/c++_adobe_express.svg" alt="image">
 					</li>
 					<li>
-						<img src="assets/img/trvl_agncy9.svg" alt="image">
+						<img src="assets/img/css_adobe_express.svg" alt="image">
 					</li>
 					<li>
-						<img src="assets/img/trvl_agncy10.svg" alt="image">
+						<img src="assets/img/html_adobe_express.svg" alt="image">
 					</li>
 					<li>
-						<img src="assets/img/trvl_agncy11.svg" alt="image">
+						<img src="assets/img/java_adobe_express.svg" alt="image">
 					</li>
 					<li>
-						<img src="assets/img/trvl_agncy12.svg" alt="image">
+						<img src="assets/img/js_adobe_express.svg" alt="image">
 					</li>
 					<li>
-						<img src="assets/img/trvl_agncy13.svg" alt="image">
+						<img src="assets/img/python_adobe_express.svg" alt="image">
 					</li>
 				</ul>
 			</div>
@@ -218,226 +218,42 @@ JavaScript is my preferred language for developing applications that are efficie
 		<!-- contact form -->
 		<section class="_clnt_sldr_drm_trvl_sec glide2">
 			<div class="container">
-				<div class="_clnt_sldr_drm_trvl_top">
-					<div class="_clnt_sldr_drm_trvl_top_lft">
-						<p class="_clnt_sldr_drm_trvl_top_p">
-							TESTIMONIALS
-						</p>
-						<h2 class="_clnt_sldr_drm_trvl_top_h2">
-							What our client say
-						</h2>
-						<p class="_clnt_sldr_drm_trvl_top_txt">
-							Create a visual identity for your company, and an overall brand
-						</p>
+				<div class="row">
+					<div class="col-md-4">
+						<label for="contact:name">Full Name</label>
+						<input required type="text" value="" class="form-control" name="full_name" id="full_name">  
 					</div>
-					<div class="_clnt_sldr_drm_trvl_top_r8">
-						<ul class="_clnt_sldr_drm_trvl_top_ul glide__arrows" data-glide-el="controls">
-							<li class="glide__arrow glide__arrow--left" data-glide-dir="<">
-								<svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" fill="none" viewBox="0 0 15 13">
-								  <path fill="#152137" fill-rule="evenodd" d="M5.243 11.803L.47 7.03a.75.75 0 010-1.06l4.773-4.773a.75.75 0 111.06 1.06L2.811 5.75H14a.75.75 0 010 1.5H2.81l3.493 3.493a.75.75 0 01-1.06 1.06z" clip-rule="evenodd"/>
-								</svg>
-							</li>
-							<li class="glide__arrow glide__arrow--right" data-glide-dir=">">
-								<svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" fill="none" viewBox="0 0 15 13">
-								  <path fill="#152137" fill-rule="evenodd" d="M9.757 11.803L14.53 7.03a.75.75 0 000-1.06L9.757 1.197a.75.75 0 10-1.06 1.06l3.492 3.493H1a.75.75 0 100 1.5h11.19l-3.493 3.493a.75.75 0 001.06 1.06z" clip-rule="evenodd"/>
-								</svg>
-							</li>
-						</ul>
+					<div class="col-md-4">
+						<label for="contact:email">Company Name</label>
+						<input required type="text" value="" class="form-control" name="company_name" id="company_name">
 					</div>
-				</div>
-				 <div class="glide__track" data-glide-el="track">
-					<div class="_clnt_sldr_drm_trvl_main_all glide__slides">
-						<div class="_clnt_sldr_drm_trvl_main">
-							<div class="_clnt_sldr_drm_trvl_crd glide__slide">
-								<div class="_clnt_sldr_drm_trvl_inr">
-									<div class="_clnt_sldr_drm_trvl_crd_top_all">
-										<div class="_clnt_sldr_drm_trvl_crd_top">
-											<img src="assets/img/man1.png" >
-										</div>
-										<h2 class="_clnt_sldr_drm_trvl_crd_h2">
-											Rowhan Doe
-										</h2>
-										<p class="_clnt_sldr_drm_trvl_crd_p1">
-											Product designer
-										</p>
-									</div>
-									<ul class="_clnt_sldr_drm_trvl_crd_ul">
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-									</ul>
-									<p class="_clnt_sldr_drm_trvl_crd_txt">
-										Before we define any approach, we need to define the brands' overall goal. We then need to dive.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="_clnt_sldr_drm_trvl_main">
-							<div class="_clnt_sldr_drm_trvl_crd glide__slide">
-								<div class="_clnt_sldr_drm_trvl_inr">
-									<div class="_clnt_sldr_drm_trvl_crd_top_all">
-										<div class="_clnt_sldr_drm_trvl_crd_top">
-											<img src="assets/img/man2.png">
-										</div>
-										<h2 class="_clnt_sldr_drm_trvl_crd_h2">
-											John Smith
-										</h2>
-										<p class="_clnt_sldr_drm_trvl_crd_p1">
-											Product designer
-										</p>
-									</div>
-									<ul class="_clnt_sldr_drm_trvl_crd_ul">
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-									</ul>
-									<p class="_clnt_sldr_drm_trvl_crd_txt">
-										Before we define any approach, we need to define the brands' overall goal. We then need to dive.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="_clnt_sldr_drm_trvl_main">
-							<div class="_clnt_sldr_drm_trvl_crd glide__slide">
-								<div class="_clnt_sldr_drm_trvl_inr">
-									<div class="_clnt_sldr_drm_trvl_crd_top_all">
-										<div class="_clnt_sldr_drm_trvl_crd_top">
-											<img src="assets/img/man3.png">
-										</div>
-										<h2 class="_clnt_sldr_drm_trvl_crd_h2">
-											Sayem Ahmed
-										</h2>
-										<p class="_clnt_sldr_drm_trvl_crd_p1">
-											Product designer
-										</p>
-									</div>
-									<ul class="_clnt_sldr_drm_trvl_crd_ul">
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-									</ul>
-									<p class="_clnt_sldr_drm_trvl_crd_txt">
-										Before we define any approach, we need to define the brands' overall goal. We then need to dive.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="_clnt_sldr_drm_trvl_main">
-							<div class="_clnt_sldr_drm_trvl_crd glide__slide">
-								<div class="_clnt_sldr_drm_trvl_inr">
-									<div class="_clnt_sldr_drm_trvl_crd_top_all">
-										<div class="_clnt_sldr_drm_trvl_crd_top">
-											<img src="assets/img/man2.png">
-										</div>
-										<h2 class="_clnt_sldr_drm_trvl_crd_h2">
-											John Smith
-										</h2>
-										<p class="_clnt_sldr_drm_trvl_crd_p1">
-											Product designer
-										</p>
-									</div>
-									<ul class="_clnt_sldr_drm_trvl_crd_ul">
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-										<li>
-											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
-											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
-											</svg>
-										</li>
-									</ul>
-									<p class="_clnt_sldr_drm_trvl_crd_txt">
-										Before we define any approach, we need to define the brands' overall goal. We then need to dive.
-									</p>
-								</div>
-							</div>
-						</div>
+					<div class="col-md-4">
+						<label for="contact:phone">Phone</label>
+						<input type="text" value="" class="form-control" name="phone" id="phone">
 					</div>
-				</div>
+			</div>
+			<div class="row">
+					<div class="col-md-4">
+						<label for="contact:subject">Email</label>
+						<input required type="text" value="" class="form-control" name="email" id="email">
+					</div>
+					<div class="col-md-4">
+						<label for="contact_department">Department</label>
+						<select class="form-control pointer" name="department" id="department">
+							<option value="">--- Select ---</option>
+							<option value="Marketing">Marketing</option>
+							<option value="Webdesign">Webdesign</option>
+							<option value="Development">Development</option>
+						</select>
+					</div>
+			</div>
+			<div class="row">
+					<div class="col-md-6">
+						<label for="contact:message">Message*</label>
+						<textarea required maxlength="10000" rows="8" class="form-control" name="message" id="message"></textarea>
+						
+					</div>
+			</div>
 			</div>
 		</section>
 		<!-- CLIENT SLIDER -->
@@ -470,18 +286,6 @@ JavaScript is my preferred language for developing applications that are efficie
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-12 col-md-12 col-lg-4 col-xl-4">
-						<div class="_foter_drm_trvl_lft">
-							<div class="_foter_drm_trvl_logo">
-								<a href="">
-									<img src="assets/img/trvl_agncy_logo.svg" alt="image">
-								</a>
-							</div>
-							<p class="_foter_drm_trvl_txt">
-								There are many variations of passages of available
-							</p>
-						</div>
-					</div>
 					<div class="col-12 col-md-12 col-lg-4 col-xl-4">
 						<div class="_foter_drm_trvl_mdl">
 							<ul class="_foter_drm_trvl_mdl_ul">

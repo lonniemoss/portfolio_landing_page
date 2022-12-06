@@ -227,6 +227,7 @@ a, button{
     margin: 0 auto;
     margin-bottom: 80px;
     z-index: 1;
+    padding-bottom: 10px;
 }
 ._hdr_drm_trvl_inr{
     padding: 200px 0px;
@@ -1763,7 +1764,7 @@ a, button{
     background: #ffff;
     border-radius: 5px;
     border: 1.5px solid #fff;
-    color: black;
+    color: rgb(214, 210, 210);
     display: inline-block;
 }
 ._drm_trvl_r8_menu_ul{
@@ -1771,3 +1772,109 @@ a, button{
 }
 }
 /*---=== RESPONSIVE ===---*/
+* { margin: 0; padding: 0; font-family: 'Roboto', sans-serif; box-sizing: border-box; z-index: 1;}
+.row{
+    position: relative;
+    display: flex;
+}
+.responsive{
+    width: 100%;
+    height: auto;
+}
+.navbar {
+    position: absolute;
+    width: 100%;
+    height: 68px;
+    left: 0px;
+    top: 24px;
+    background: rgba(244, 242, 242, 0.69);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 200px; 
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+    font-size: 2vh;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background-color: rgb(250, 243, 243);
+}
+
+#nav-options ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+}
+@media(max-width:960px){
+    .hamburger{
+        display: block;
+        position: fixed;    
+        right: 10%;
+        top: 7%;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    #nav-options{
+        position: fixed;
+        visibility: hidden;
+        left: -200%;
+        top: 16%;
+        gap: 0;
+        flex-direction: column;
+        background: rgba(254, 243, 243, 0.69);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        align-items: right;    
+        z-index: 10;
+    }
+    ._drm_trvl_mdl_ul_li{
+        margin: 16px 0;
+    }
+    .nav-options.active{
+        left: 0;
+        top: 16%;
+        z-index: 10;
+        visibility: visible;
+    }
+    #nav-options a{
+        align-items: center;
+        text-align: center;
+        font-size: small;
+    }
+}
