@@ -1878,3 +1878,10 @@ nav ul li a:hover{
         font-size: small;
     }
 }
+#pro{
+    padding-bottom: 200px;
+}
+#sub{
+    padding-inline: 100px;
+    gap: 1000px;
+}
