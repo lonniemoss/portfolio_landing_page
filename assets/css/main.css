@@ -70,9 +70,12 @@ a, button{
 }
 /*---=== MENU ===---*/
 .navbar{
-    background: transparent;
-    padding: 20px 0px;
-    z-index: 1;
+    background: rgb(8, 8, 8);
+    opacity: 80%;
+    position: fixed;
+    top: 0%;
+    padding-right: 1500px;
+    
 }
 ._drm_trvl_logo_mbl{
     max-width: 120px;
@@ -840,6 +843,7 @@ a, button{
     width: auto;
     height: auto;
     margin: 20px 30px;
+    padding-bottom: 200px;
 }
 /*---=== PARTNER END ===---*/
 
@@ -1859,4 +1863,11 @@ a{
     .nav-menu.active{
         left: 0;
     }
+    
 }
+
+/* see the HTML for info */
+
+
+
+
