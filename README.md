@@ -1,2 +1,2 @@
 # portfolio_landing_page
-cuurently in development
+curent state: https://lonniemoss.github.io/portfolio_landing_page/
